@@ -9,24 +9,25 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
         <div class="container">
-          <a class="navbar-brand" href="/project-log/index.html">Homepage</a>
+          <a class="navbar-brand" href="/project-log/index.php">Homepage</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/project-log/signup.html">Sign Up</a>
+                <a class="nav-link" href="/project-log/signup.php">Sign Up</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/project-log/login.html">Login</a>
+                <a class="nav-link" href="/project-log/login.php">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/project-log/logout.html">Logout</a>
+                <a class="nav-link" href="/project-log/logout.php">Logout</a>
             </li>
             </ul>
           </div>
       </div>
     </nav>
+    <h1 class="text-center">WELCOME !</h1>
 </body>
 </html>
