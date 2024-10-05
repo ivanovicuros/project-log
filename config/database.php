@@ -1,11 +1,17 @@
 <?php
+require_once realpath(__DIR__ . "vendor/autoload.php");
 // phpinfo();
-$host     = 'localhost';
-$port     = '5432';
-$user     = 'urosivanovic';
-$password = 'Bagzisha10$';
-$port     = '5432';
-$dbname   = 'test';
+
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+$host     = getenv("HOST");
+$port     = getenv("DB_PORT");
+$user     = getenv("DB_USER");
+$password = getenv("DB_PASSWORD");
+$dbname   = getenv("DB_NAME");
 
 // Set DSN
 $dsn = "pgsql:host=$host;port=$port;dbname=$dbname";
